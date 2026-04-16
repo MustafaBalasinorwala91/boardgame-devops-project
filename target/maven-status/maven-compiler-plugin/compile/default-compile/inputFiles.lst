@@ -1,0 +1,9 @@
+/home/ubuntu/Automating-Secure-Deployment-of-Board-game-Listing-WebApp-on-AWS/BoardGame/src/main/java/com/javaproject/security/SecurityConfig.java
+/home/ubuntu/Automating-Secure-Deployment-of-Board-game-Listing-WebApp-on-AWS/BoardGame/src/main/java/com/javaproject/DatabaseServiceProjectApplication.java
+/home/ubuntu/Automating-Secure-Deployment-of-Board-game-Listing-WebApp-on-AWS/BoardGame/src/main/java/com/javaproject/security/LoggingAccessDeniedHandler.java
+/home/ubuntu/Automating-Secure-Deployment-of-Board-game-Listing-WebApp-on-AWS/BoardGame/src/main/java/com/javaproject/controllers/BoardGameController.java
+/home/ubuntu/Automating-Secure-Deployment-of-Board-game-Listing-WebApp-on-AWS/BoardGame/src/main/java/com/javaproject/beans/BoardGame.java
+/home/ubuntu/Automating-Secure-Deployment-of-Board-game-Listing-WebApp-on-AWS/BoardGame/src/main/java/com/javaproject/beans/Review.java
+/home/ubuntu/Automating-Secure-Deployment-of-Board-game-Listing-WebApp-on-AWS/BoardGame/src/main/java/com/javaproject/controllers/HomeController.java
+/home/ubuntu/Automating-Secure-Deployment-of-Board-game-Listing-WebApp-on-AWS/BoardGame/src/main/java/com/javaproject/beans/ErrorMessage.java
+/home/ubuntu/Automating-Secure-Deployment-of-Board-game-Listing-WebApp-on-AWS/BoardGame/src/main/java/com/javaproject/database/DatabaseAccess.java
