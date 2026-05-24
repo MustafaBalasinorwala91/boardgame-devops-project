@@ -6,7 +6,7 @@ branches:
 - main
 
 jobs:
-build-and-deploy:
+build-and-security-scan:
 runs-on: ubuntu-latest
 
 steps:
@@ -26,5 +26,14 @@ steps:
 - name: Build Docker Image
   run: docker build -t boardgame-app .
 
-- name: Docker Image Success
-  run: echo "Docker image built successfully!"
+- name: Run Trivy Vulnerability Scanner
+  uses: aquasecurity/trivy-action@master
+  with:
+    image-ref: 'boardgame-app'
+    format: 'table'
+    exit-code: '0'
+    ignore-unfixed: true
+
+- name: Pipeline Success
+  run: echo "CI/CD pipeline completed successfully!"
+
